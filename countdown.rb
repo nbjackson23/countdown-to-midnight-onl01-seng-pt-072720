@@ -16,5 +16,12 @@ end
 # You can run `clear` to clear your terminal
 
 def countdown_with_sleep(number)
-    # Use the stack overflow post linked in the lesson to figure out how to establish a wait time between print statements
-end 
+   while number > 0
+
+  puts "#{number} SECOND(S)!"
+  sleep(1)
+  number -= 1
+
+end
+  "HAPPY NEW YEAR!"
+end	 # Use the stack overflow post linked in the lesson to figure out how to establish a wait time between print statements
